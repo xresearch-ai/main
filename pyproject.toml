@@ -5,15 +5,16 @@ description = "XResearch Drug Repurposing project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pandas",
+    "pandas==3.1.1",
     "numpy",
     "matplotlib",
     "seaborn",
     "jinja2",
     "ipykernel",
-    "duckdb>=1.4",
-    "pyarrow>=21",
-    "rdkit>=2025.9",
+    "duckdb==1.5.6",
+    "pyarrow==23.0.1",
+    "rdkit==2026.9.1",
+    "fsspec[http]==2026.9.0",
 ]
 
 [dependency-groups]
